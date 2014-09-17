@@ -7,4 +7,6 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 0
-dispatch_async(dispatch_get_main_queue(), <#^(void)block#>);
+dispatch_async(dispatch_get_main_queue(), ^{
+    <#code#>
+});
